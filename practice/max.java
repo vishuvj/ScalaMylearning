@@ -20,8 +20,9 @@ public class max {
             a[min] = temp;
         }
         for (int i = 0; i <= hi; i++) {
-            System.out.println(a[i] + " ");
+            System.out.print(a[i] + " ");
         }
+        System.out.println("");
         int m = a[0];
         int max = a[a.length - 1];
         System.out.println("minimum " + m);
