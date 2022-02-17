@@ -6,14 +6,14 @@ object S2_OccurenceOfCharacter extends App {
 
 
   val name = "Vishal Jadon"
-  val char = name.toCharArray()
+  val char = name.toCharArray
   println("+-------------+-----------+")
   println("\tCharacter\tFrequency")
-  for (i <- 0 to name.length - 1) {
+  for (i <- 0 until name.length) {
     i + 1
     var a = i
     var count = 0
-    for (j <- 0 to name.length - 1) {
+    for (j <- 0 until name.length) {
       j + 1
       if (j < i && (char(j) == char(i))) {
         break
